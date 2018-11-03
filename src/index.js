@@ -3,7 +3,7 @@ var UserList = require('./views/UserList')
 var UserForm = require('./views/UserForm')
 var Layout = require("./views/Layout")
 
-m.route.prefix('#')
+// m.route.prefix('#')
 
 m.route(document.body, '/list',{
     '/list': {
